@@ -1,0 +1,102 @@
+
+
+#banner{
+    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url('https://hips.hearstapps.com/hmg-prod/images/7-1-1547224305.jpg?resize=980:*');
+    width:100%;
+    height:100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+h3{
+    color: white;
+    font-family: 'Poppins'
+}
+
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#header{
+    margin-top: 30px;
+    color:white;
+    font-family: 'Poppins';
+    font-size: 60px;
+    text-align:center;
+    text-transform: uppercase;
+}
+
+#filler{
+    color: white;
+    text-align:center;
+}
+
+#buttons{
+    text-align: center; 
+}
+
+#sub, #learn {
+    background-color: transparent;
+    border: 2px solid red;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 170px;
+    align-items: center;
+    letter-spacing: .10rem;
+}
+
+#sub:hover{
+    animation-name: example;
+    animation-duration: 2s;
+}
+
+@keyframes  example {
+    from{ background-color:  transparent;}
+    to { background: red}
+    
+}
+
+#learn:hover{
+    animation-name: learn;
+    animation-duration: 0.3s;
+}
+
+@keyframes learn {
+    from{ background-color: transparent;}
+    to{ background-color: red;}
+    
+}
+
+hr{
+    display: inline-block;
+    
+}
+
+hr:hover{
+    transition: width 2S;
+    background: white;
+}
